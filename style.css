@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{font-family: 'Poppins', sans-serif;background-color: #FFFFFF;
+}
+main{align-items: center; display: flex;flex-direction: column;}
+
+.top-h{width: 485px;
+    height: 230px;
+    font-size: 50px;color: #FFFFFF;
+    line-height: 80px;padding-top: 110px;
+    padding-bottom: 240px;padding-left: 156px;transition: width 1s;
+}
+.live{text-decoration: none;
+    background-color: #E02C6D;margin-bottom: 170px;
+    width: 168px;height: 44px;padding: 10px 24px 10px 24px ;
+    font-size: 16px;font-weight: 500px;color: #FFFFFF;
+    
+}
+.box{background: #2D25A0;
+    height: 677px;
+    display: flex;}
+.banner img{width: 556px;height: 438px;
+    padding: 153px 130px 86px 102px;
+}
+.top-h:hover{width: 500px;}
+
+.container-1{align-items: center;display: flex;margin-bottom: 27px;
+margin-top: 70px;}
+.top-players{margin-bottom: 27px;}
+.players{display: grid;
+grid-template-columns: repeat(3, 1fr);grid-column-gap: 30px;
+}
+.player img{width: 300px;
+height: 256px;}
+.player{
+    height: 474px;width: 300px;
+    background-color:  #FFFFFF;box-shadow: 0 0 40px;
+    padding-left: 15px;padding-top: 15px;padding-right: 15px;padding-bottom: 15px;
+}
+.striker{font-size: 28px;font-weight: bold;
+    line-height: 40px;color: #18191F;
+}
+.field{font-size: 16px;margin: 10px 0px;
+line-height: 26px; color: #6C6C6C;width: 300px;
+height: 104px;}
+.container-2{align-items: center;width: 1050px;height: 474px;
+    margin-bottom: 27px;display: flex;margin-top: 27px;}
+.players-2{display: grid;
+    grid-template-columns: repeat(3, 1fr);grid-column-gap: 30px;}
+.container-3{align-items: center;width: 1050px;height: 474px;
+    margin-bottom: 27px;display: flex;margin-top: 27px;}
+.players-3{display: grid;
+    grid-template-columns: repeat(3, 1fr);grid-column-gap: 30px;}
+.container-4{align-items: center;width: 1050px;height: 474px;
+    margin-bottom: 27px;display: flex;margin-top: 27px;}
+.players-4{display: grid;
+        grid-template-columns: repeat(3, 1fr);grid-column-gap: 30px;}
+.calender{
+    width: 466px;height: 309px;
+    margin: 224px 792px 493px 69px;display: flex;align-items: center;
+}
+.calender img{width: 466px;height: 309px;}
+.extra{margin: 400px 156px 434px 70px;}
+
+footer {text-align: center;height: 213px;margin-bottom: 63px;}
+.icon img{height:  32px; width:  32px;}
+.logo img{width: 484px;height: 110px;}
